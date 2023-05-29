@@ -1,0 +1,180 @@
+/* Label and label header styles */
+#label,
+#label-header {
+    color: #edf0f1;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#label-header {
+    font-size: 36px;
+    font-family: Arial black, sans-serif;
+}
+
+/* Input text style */
+#input-text {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+/* Form element styles */
+form :where(input, select) {
+    width: 95%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Input styles */
+form input {
+    height: 50px;
+    font-size: 24px;
+    padding: 0 15px;
+    border: 3px solid rgba(0, 130, 230, 1);
+}
+
+/* Dropdown list container styles */
+form .drop-list {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Select box styles */
+.drop-list .select-box {
+    display: flex;
+    width: 115px;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid rgba(0, 130, 230, 1);
+}
+
+/* Select box arrow icon styles */
+.select-box img {
+    max-width: 21px;
+}
+
+/* Select element styles */
+.select-box select {
+    width: auto;
+    font-size: 16px;
+    background: #24252a;
+    margin: 0 -5px 0 5px;
+    color: #edf0f1;
+}
+
+/* Dropdown list icon styles */
+.drop-list .icon {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+/* Exchange rate style */
+form .exchange-rate {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #edf0f1;
+    margin: 20px 0 30px;
+}
+
+/* Button styles */
+form button {
+    height: 52px;
+    color: #edf0f1;
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 130, 230, 1);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 5px;
+}
+/* Button hover styles */
+form button:hover {
+    background-color: rgba(0, 130, 230, 0.8);
+    transform: scale(1.1);
+}
+
+/* Icon styles */
+.icon {
+    color: #edf0f1;
+}
+
+/* Price container styles */
+.price-container {
+    width: 25%;
+    margin: 15px auto;
+    background: #24252a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form label styles */
+.form-label {
+    font-size: 24px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    color: #edf0f1;
+}
+
+/* Form control and form control select styles */
+.form-control,
+.form-control-select {
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 8px 0;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Price button styles */
+.price-button {
+    background: rgba(0, 130, 230, 1);
+    color: #edf0f1;
+    border: none;
+    font-size: 24px;
+    font-family: Arial black, sans-serif;
+    font-style: bold;
+    cursor: pointer;
+    width: 100%;
+}
+/* Result Div Styles */
+#result {
+    color: #edf0f1;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+/* Result Header Styles */
+#result-header {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+/* Hr Styles to get a border */
+hr {
+    border-top: 10px solid rgba(0, 130, 230, 1);
+    margin-bottom: 10px;    
+}

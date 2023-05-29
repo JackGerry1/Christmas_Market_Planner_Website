@@ -1,0 +1,133 @@
+/* container for the registration section */
+.reg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* first registration element */
+.reg-position-first {
+    display: flex;
+    margin-top: 3%;
+    width: 65%;
+}
+/* content for the registration section */
+.reg-container .content {
+    text-align: center;
+    background: #24252a;
+    padding: 25px;
+    border-radius: 25px;
+}
+/* title of forms*/
+.reg-container .content h3 {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: #edf0f1;
+}
+/* main title forms*/
+.reg-container .content h1 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: #edf0f1;
+    margin-bottom: 20px;
+}
+/* color for the special text */
+.reg-container .content h1 span {
+    color: #0082e6;
+}
+/* text for the registration section */
+.reg-container .content p {
+    font-size: 25px;
+    color: #edf0f1;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+/* styling for home button */
+.reg-container .content .home-button {
+    display: inline-grid;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #0082e6;
+    color: #fff;
+    margin: 0 15px;
+    text-transform: capitalize;
+}
+/* styling for home button on hover */
+.reg-container .content .home-button:hover {
+    background: #0082e6;
+}
+/* container for the form */
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #3f3f3f;
+}
+/* styling for the form */
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: #24252a;
+    text-align: center;
+    width: 500px;
+}
+/* styling for the form title */
+.form-container form h3 {
+    font-size: 30px;
+    font-family: Arial black, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #edf0f1;
+    font-style: bold;
+}
+/* styling for the form inputs */
+.form-container form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 8px 0;
+    background: white;
+    border-radius: 5px;
+}
+/* styling for the form submit button */
+.form-container form .form-btn {
+    background: #0082e6;
+    color: #edf0f1;
+    border: none;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-style: bold;
+    cursor: pointer;
+}
+/* styling for the form submit button on hover */
+.form-container form .form-btn:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s;
+}
+/* styling for the form text */
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #0082e6;
+}
+/* styling for the form link */
+.form-container form p a {
+    color: #edf0f1;
+    font-style: bold;
+}
+/* styling for the form link on hover */
+.form-container form p a:hover {
+    color: #0082e6;
+}
+/* styling for the error message */
+.form-container form .error-msg {
+    margin: 10px 0;
+    display: block;
+    background: #0082e6;
+    color: #edf0f1;
+    border-radius: 5px;
+}

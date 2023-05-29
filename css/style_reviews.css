@@ -1,0 +1,151 @@
+/* main content container */
+.content {
+    width: 65%;
+    margin: 10px auto;
+    background: #24252a;
+    border-radius: 15px;
+}
+/* sub-header text */
+.sub-header {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #edf0f1;
+}
+/* title for the content */
+.content h2 {
+    padding: 25px 0;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #edf0f1;
+}
+/* horizontal line */
+.breaker-reviews {
+    width: 100%;
+    border-bottom: 3px solid #0082e6;
+}
+/* overall rating number */
+.reviews .overall_rating .num {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #f5a624;
+}
+/* overall rating stars */
+.reviews .overall_rating .stars {
+    letter-spacing: 3px;
+    font-size: 48px;
+    color: #f5a624;
+    padding: 0 5px 0 10px;
+}
+/* total number of reviews */
+.reviews .overall_rating .total {
+    color: #edf0f1;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+/* write review button */
+.reviews .write_review_btn {
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0, 130, 230, 1);
+}
+/* write review button on hover */
+.reviews .write_review_btn:hover {
+    background-color: rgba(0, 130, 230, 0.8);
+    transform: scale(1.3);
+}
+/* write review section */
+.reviews .write_review {
+    display: none;
+    padding: 20px 0 10px 0;
+}
+/* input for writing a review */
+.reviews .write_review textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+/* input for writing a name */
+.reviews .write_review input {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+/* individual review container */
+.reviews .review {
+    padding: 20px 0;
+    border-bottom: 3px solid #0082e6;
+}
+/* name of the reviewer */
+.reviews .review .name {
+    padding: 0 0 3px 0;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial black, sans-serif;
+    color: #edf0f1;
+}
+/* rating given by each reviewer */
+.reviews .review .rating {
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    color: #f5a624;
+    margin-left: 10px;
+}
+/* date of the review */
+.reviews .review .date {
+    color: #edf0f1;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+/* the actual content of the review */
+.reviews .review .content {
+    padding: 5px 0;
+    width: 99%;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background: transparent;
+    color: #edf0f1;
+}
+/* remove border for the last review */
+.reviews .review:last-child {
+    border-bottom: 0;
+}
+/* make textarea resizable on vertically*/
+textarea {
+    resize: vertical;
+}
+/* center the review */
+.centered-review {
+    display: flex;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+}

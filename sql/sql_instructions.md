@@ -1,0 +1,1 @@
+import the two sql files into your localhost to gain access the the login system and review system.
